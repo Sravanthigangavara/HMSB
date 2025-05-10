@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the jar file
-COPY target/JobPortalS11.jar app.jar
+COPY target/jobportal-1.0.0.jar app.jar
 
 
 # Expose port 8080
